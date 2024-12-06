@@ -45,7 +45,7 @@ class AdminPanelProvider extends PanelProvider
             })
             ->brandLogoHeight(fn (GeneralSettings $settings) => $settings->site_logoHeight)
             ->colors([
-                'primary' => Color::Red,
+                'primary' => Color::Yellow,
             ])
             ->databaseNotifications()
             ->globalSearchKeyBindings(['ctrl+k', 'command+k'])
